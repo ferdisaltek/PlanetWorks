@@ -6,7 +6,7 @@
     Label1.Text = "Hello World; the time is now " + DateTime.Now.ToString();
   }
 </script>
-<html xmlns="">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
   <title></title>
 </head>
