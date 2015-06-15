@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CodeBehind.aspx.cs" Inherits="Demos_CodeBehind" %>
+﻿<%@ Page Title="Code Behind Demo" Language="C#" AutoEventWireup="true" CodeFile="CodeBehind.aspx.cs" Inherits="Demos_CodeBehind" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">

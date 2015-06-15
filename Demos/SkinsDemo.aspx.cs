@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class _Default : BasePage
+public partial class Demos_SkinsDemo : BasePage
 {
-    protected void Page_Load(object sender, EventArgs e)
-    {
+  protected void Page_Load(object sender, EventArgs e)
+  {
 
-    }
+  }
 }
