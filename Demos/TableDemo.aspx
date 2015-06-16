@@ -4,12 +4,12 @@
 <head runat="server">
   <title></title>
   <style type="text/css">
-    .auto-style1 
+    .auto-style1
     {
       width: 100%;
     }
 
-    .auto-style2 
+    .auto-style2
     {
       width: 200px;
     }
@@ -41,7 +41,7 @@
         </tr>
         <tr>
           <td class="auto-style2">Link</td>
-          <td><a href="../Default.aspx">Go to the homepage of Planet Wrox</a></td>
+          <td><a href="../Default">Go to the homepage of Planet Wrox</a></td>
         </tr>
       </table>
     </div>
