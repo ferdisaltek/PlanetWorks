@@ -37,7 +37,7 @@ public partial class Controls_Banner : System.Web.UI.UserControl
       }
       else
       {
-        return ""; // Return a default value
+        return "http://p2p.wrox.com"; // Return a default value
       }
     }
     set

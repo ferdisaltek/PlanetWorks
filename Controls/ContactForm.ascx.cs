@@ -46,12 +46,13 @@ public partial class Controls_ContactForm : System.Web.UI.UserControl
       myMessage.From = new MailAddress("you@example.com", "Sender Name");
       myMessage.To.Add(new MailAddress("you@example.com", "Receiver Name"));
       myMessage.ReplyToList.Add(new MailAddress(EmailAddress.Text));
-      
+
       SmtpClient mySmtpClient = new SmtpClient();
       mySmtpClient.Send(myMessage);
-     
+
       Message.Visible = true;
       FormTable.Visible = false;
+      System.Threading.Thread.Sleep(5000);
     }
   }
 }
